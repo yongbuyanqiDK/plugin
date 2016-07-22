@@ -1,0 +1,8 @@
+##############################################
+#               MY PLUGINS                   #
+##############################################
+
+plugins:
+  mogi:
+    executor: central_deployment_agent
+    source: https://github.com/yongbuyanqiDK/plugin/archive/master.zip
