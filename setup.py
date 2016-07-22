@@ -1,13 +1,13 @@
-__author__ = 'dongkai'
+# -*-coding:UTF-8 -*-
 from setuptools import setup
+
+__author__ = 'dongkai'
+
+
 setup(
-  zip_safe=True,
-  name='cloudify-mogi-plugin',
-  version='1.0',
-  author='dongkai',
-  author_email='dongkai@beyondcent.com',
-  license='LICENSE',
-  description='Playground plugins',
-  install_requires=[
-  ]
+    name='python-http-webserver-plugin',
+    version='1.0',
+    author='dongkai',
+    packages=['python_webserver'],
+    install_requires=['cloudify-plugins-common>=3.3.1'],
 )
